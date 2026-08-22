@@ -16,7 +16,7 @@ public class UserAccount
     // TODO 2: Username (Auto-Implemented)
     public string Username { get; set; } = "UserAccount"
     // TODO 3: Password (Write-Only)
-    public string _password
+    public string Password
     {
        
         set { if (vaule == "")
@@ -27,7 +27,7 @@ public class UserAccount
         }
     }
     // TODO 4: Balance (Full Property with Validation)
-    public decimal _balance
+    public decimal Balance
     {
         get { return _balance; }
         set { if (vaule < 0) {
